@@ -1,0 +1,119 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* ****************************************** */
+                  /* HEADER */
+/* ****************************************** */
+
+header {
+  position: relative;
+
+}
+
+header img {
+  display: block;
+  width: 1300px;
+  margin: 0 auto;
+}
+
+header p, h1{
+  margin: 0px;
+  font-family: 'Abril Fatface', cursive;
+}
+
+header .introduction {
+  position: absolute;
+  top: 240px;
+  left: 550px;
+}
+
+header .introduction p {
+  font-size: 35px;
+}
+
+header .introduction h1 {
+  font-size: 60px;
+}
+
+/* ****************************************** */
+                  /* MAIN CONTENT */
+/* ****************************************** */
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+p, ul, li, h3, h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+}
+
+h1 {
+  color: #222;
+}
+
+.subtitles {
+  font-family: 'Merriweather', serif;
+}
+
+h2 {
+  text-transform: uppercase;
+  margin: 60px 0px;
+  font-size: 35px;
+}
+
+p, li {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 28px;
+  margin: 60px 0px 0px 0px;
+}
+
+blockquote {
+  font-size: 55px;
+  background-color: #222;
+  color: white;
+  margin: 0px;
+  padding: 50px 30px;
+  font-family: 'Abril Fatface', cursive; 
+}
+
+.quotes {
+  position: relative;
+}
+blockquote::before {
+  content: '”';
+  font-size: 120px;
+  -webkit-transform: rotate(180deg);
+  position: absolute;
+  top: -80px;
+  left: 3px;
+}
+
+.subtitles {
+  margin: 5px 0px 30px 0px; 
+}
+
+ul {
+  list-style-type: square;
+}
+
+li {
+  margin: 8px 0px;
+}
+
+hr {
+  border: solid 3px #222;
+  margin: 60px 0px 0px 0px;
+}
+
+
+
+/* ****************************************** */
+                  /* FOOTER */
+/* ****************************************** */
